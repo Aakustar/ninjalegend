@@ -493,5 +493,5 @@ local function _cc()
 local acc=Instance.new('LocalScript',bcb)
 function onButtonClicked()
 local bcc=game.Players.LocalPlayer.petsFolder:GetDescendants()for ccc,dcc in pairs(bcc)do
-if dcc.ClassName=="NumberValue"then local _dc=dcc;_dc.Value=99999999999999999999999999999 end end end
+if dcc.ClassName=="NumberValue"then local _dc=dcc;_dc.Value=99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 end end end
 acc.Parent.MouseButton1Click:connect(onButtonClicked)end;coroutine.wrap(_cc)()
